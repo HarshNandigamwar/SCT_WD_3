@@ -15,7 +15,7 @@ This project is an engaging and interactive quiz game built using HTML, CSS, and
 
 *   **HTML:**  Structures the content of the quiz, including questions, options, and the game interface.
 *   **CSS:** Styles the quiz, creating an attractive and visually appealing user interface.
-*   **JavaScript:**  Implements the game logic, including handling user input, tracking scores, managing the timer (if included), and providing feedback.
+*   **JavaScript:**  Implements the game logic, including handling user input, tracking scores.
 
 ## 🚀 How to Play
 
