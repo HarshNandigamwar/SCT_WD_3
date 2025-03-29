@@ -2,7 +2,7 @@
 
 # 🎮 Interactive Quiz Game
 
-This project is an engaging and interactive quiz game built using HTML, CSS, and JavaScript. It features an attractive and user-friendly design, making it a fun and accessible way to test your knowledge. This project was developed as part of my internship at #SkillcraftTechnology.
+This project is an engaging and interactive quiz game built using HTML, CSS3, and JavaScript. It features an attractive and user-friendly design, making it a fun and accessible way to test your knowledge. This project was developed as part of my internship at #SkillcraftTechnology.
 
 ## ✨ Features
 
@@ -14,7 +14,7 @@ This project is an engaging and interactive quiz game built using HTML, CSS, and
 ## 💻 Technologies Used
 
 *   **HTML:**  Structures the content of the quiz, including questions, options, and the game interface.
-*   **CSS:** Styles the quiz, creating an attractive and visually appealing user interface.
+*   **CSS3:** Styles the quiz, creating an attractive and visually appealing user interface.
 *   **JavaScript:**  Implements the game logic, including handling user input, tracking scores.
 
 ## 🚀 How to Play
