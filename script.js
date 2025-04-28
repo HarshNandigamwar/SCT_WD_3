@@ -103,8 +103,14 @@ function showScore (){
     let emoji  ;
 if(score == questions.length){
     emoji = "😎";
+    for (i=0;i<20;i++) {
+      confetti();
+  }
 }else if(score == 4){
     emoji = "😃"
+    for (i=0;i<20;i++) {
+      confetti();
+  }
 }else if(score == 3){
     emoji = "😅"
 }else if(score == 2){
