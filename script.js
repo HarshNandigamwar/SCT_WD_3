@@ -101,6 +101,8 @@ const questions = [
 const questionElement = document.getElementById("question");
 const answerButtons = document.getElementById("answer-buttons");
 const nextButton = document.getElementById("next-btn");
+
+
 let currentQueInd = 0;
 let score = 0;
 
@@ -111,6 +113,8 @@ function startQuiz() {
   nextButton.innerHTML = "Next";
   showQue();
 }
+
+
 function showQue() {
   resetState();
   let currentQue = questions[currentQueInd];
@@ -128,12 +132,16 @@ function showQue() {
     button.addEventListener("click", selectAnswer);
   });
 }
+
+
 function resetState() {
   nextButton.style.display = "none";
   while (answerButtons.firstChild) {
     answerButtons.removeChild(answerButtons.firstChild);
   }
 }
+
+
 function selectAnswer(e) {
   const selectedBtn = e.target;
   const isCorrect = selectedBtn.dataset.correct === "true";
@@ -163,7 +171,7 @@ function showScore() {
       for (i = 0; i < 20; i++) {
         confetti();
       }
-    },100)
+    },1000)
     
   } else if (score == 9) {
     emoji = "😎";
@@ -188,6 +196,8 @@ function showScore() {
   nextButton.innerHTML = "Play Again";
   nextButton.style.display = "block";
 }
+
+
 function handleNextButton() {
   currentQueInd++;
   if (currentQueInd < questions.length) {
@@ -196,6 +206,7 @@ function handleNextButton() {
     showScore();
   }
 }
+
 nextButton.addEventListener("click", () => {
   if (currentQueInd < questions.length) {
     handleNextButton();
@@ -203,4 +214,6 @@ nextButton.addEventListener("click", () => {
     startQuiz();
   }
 });
+
 startQuiz();
+

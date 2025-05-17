@@ -8,7 +8,7 @@ body {
   background-color: black;
 }
 .app {
-  background: rgb(36, 35, 35);
+  background: #242323;
   width: 90%;
   max-width: 600px;
   margin: 100px auto 0;
@@ -22,6 +22,8 @@ body {
   border-bottom: 1px solid #ff8c00;
   padding-bottom: 30px;
 }
+
+
 .quiz {
   padding: 20px 0;
 }
@@ -30,6 +32,8 @@ body {
   color: #00ff2f;
   font-weight: 600;
 }
+
+
 .btn {
   background: white;
   color: #222;
